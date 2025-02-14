@@ -1,0 +1,5 @@
+- Name: Yiting Sun
+- Class: DSCI-310
+- Year: 2024-25
+- Term: W2
+- Purpose: Practical Midterm Exam
