@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ia5
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This is a toy R package for DSCI 310 coursework.
+
+## Installation
+
+You can install the development version of ia5 from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("annasyt/ia5")
+```
+
+## Example
+
+Here’s how to use the function after installation:
+
+```{r example}
+library(ia5)
+# Capitalize a single string
+capitalize("hello world")
+
+# Capitalize multiple strings
+capitalize(c("apple pie", "banana split"))
+```
